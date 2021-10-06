@@ -7,18 +7,53 @@
        url('../fonts/montserrat-v18-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/montserrat-v18-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* oswald-500 - latin */
+/* oswald-500 - latin_cyrillic */
 @font-face {
   font-family: 'Oswald';
   font-style: normal;
   font-weight: 500;
   src: local(''),
-       url('../fonts/oswald-v40-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/oswald-v40-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../fonts/oswald-v40-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/oswald-v40-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /*Common*/
   
 body {
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Oswald' , sans-serif;
     color: black;
+}
+a {
+  color: inherit;
+}
+/* Header */
+.header {
+  color: #060D10;
+  background-color: #66D1FF
+}
+.tagline{
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.tagline a{ 
+  font-size: 24px;
+  line-height: 29px;
+    text-decoration: none;
+
+}
+.tagline span{
+  font-size: 28px;
+  line-height: 34px;
+    text-decoration: none;
+}
+.about{
+  
+}
+.about-title{
+font-family: 'Oswald', sans-serif;
+font-weight: 500;
+font-size: 60px;
+line-height: 89px;
+color:#ffffff;
+text-shadow:2px 1px 1px black;
+    text-decoration: none;
 }
