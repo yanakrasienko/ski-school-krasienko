@@ -28,9 +28,10 @@ a {
 /* Header */
 .header {
   color: #060D10;
-  background-color: #66D1FF
+  
 }
 .tagline{
+  background-color: #66D1FF;
   font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
@@ -40,20 +41,123 @@ a {
     text-decoration: none;
 
 }
-.tagline span{
-  font-size: 28px;
-  line-height: 34px;
-    text-decoration: none;
+.tegline-text{
+  font-size: 1px;
+  opacity: 0;
 }
 .about{
-  
+ text-align: center;
+ background-image: url('../images/mountain-bck.png');
+ background-size: cover;
+ background-position: center;
+ color: #fff;
+
 }
 .about-title{
-font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
 font-weight: 500;
 font-size: 60px;
 line-height: 89px;
-color:#ffffff;
-text-shadow:2px 1px 1px black;
+text-shadow:1px 1px 2px #060D10;
     text-decoration: none;
+    text-transform: uppercase;
+}
+.about-text{
+  font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-decoration: none;
+text-shadow:1px 1px 2px black;
+}
+.about-bg-fade{
+  padding: 230px 0;
+    background-color: rgba(6, 13, 16, 0.25)
+    ;
+  }
+  /* features */
+.features{
+  background-color:rgba(102, 209, 255,10%) ;
+  
+}
+.features-caption{
+
+}
+.features-items{
+
+}
+.features-item{
+
+}
+.features-subtitle{
+  font-family: 'Oswald', sans-serif;
+font-weight: 500;
+font-size: 32px;
+text-transform: uppercase;
+
+
+}
+.features-text{
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+font-size: 26px;
+line-height:36px;
+opacity:80%;
+}
+.lead{
+/*background: linear-gradient(52.6deg,rgba(102, 209, 255,1),rgba(196, 196, 196, 0));*/
+text-align: center;
+}
+.lead-caption{
+  font-family: 'Oswald', sans-serif;
+font-weight: 500;
+font-size: 48px;
+text-transform: uppercase;
+
+}
+.btn{
+  font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+  font-size: 36px;
+  text-decoration: none;
+
+}
+.lead-list-img{
+
+}
+.lead-item{
+
+}
+.social-icon{
+
+}
+
+.social-link{
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-image: url('../images/icon-twitter.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.social-text{
+  font-size: 1px;
+  opacity: 0;
+}
+
+
+/* Footer */
+.footer{
+  background-color:#060D10;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color:#fff;
+}
+.footer-text{
+   
+  font-size: 18px;
+ 
+}
+.footer-icon-text{
+  font-size: 20px;
 }
